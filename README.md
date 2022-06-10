@@ -36,6 +36,31 @@ _Dentro do Git  temos Commit, Tree e Blobs, entendendo o que são cada um podemo
 
   **mv** - utilizado para mover um repositório para dentro de outro ou ao contrario também.
 
-  **ls -a** - Utilizados para listar arquivos ocultos.
+  **ls -a** - Utilizados para listar todos os arquivos até mesmo os ocultos.
+
+- Repositório Remoto
+
+  _podemos configurar nosso git, para mandar automaticamente um repositório para o github, com uma para chave._
+
+  _OBS: criar esse repositório remoto sempre em uma maquina de confiança de uso pessoal_
+
+  **exemplo**
+
+  **git init** - para iniciar o Git
+  **git remote add "Palavra chave" https://github.com/username/nome_remositorio.git** - comando utilizado para configurar git repositório remoto.
 
   
+
+- Enviando Repositório
+
+  _Para enviar seu repositório do Git para o GtiHub._ 
+
+  **Git Push origin main** - Quando vamos devolver para o repositório clone  
+
+  **Git Push origin master** - quando vamos utilizar nosso Repositório Remoto 
+
+-  Clonar
+
+  _Quando clonamos um repositório, será criado na pasta escolhida para o clone um arquivo, onde poderemos editar na maquina local, observando que do lado do nome arquivo terá "main" escrito, esse nome main nos ajuda a orientar o git na hora do push._
+
+   **git clone https://github.com/username/nome_repositorio.git** - comando para clonar
